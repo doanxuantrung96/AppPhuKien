@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img_itemgh_anhsp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="12dp"
+        android:src="@drawable/icon_pinduphong" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_itemgiohang_tensanpham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tai nghe"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/colorTextApp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_itemgiohang_giasp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500000"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/colorTextApp"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/minus"
+                android:id="@+id/btn_itemgh_minus"/>
+
+            <TextView
+                android:id="@+id/txt_itemgh_soluong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="1"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:textColor="@color/colorTextApp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/btn_itemgh_plus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/plus" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
